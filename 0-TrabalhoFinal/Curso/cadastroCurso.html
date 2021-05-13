@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Curso</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<header>
+    <h1>Cadastro de Curso</h1>
+</header>
+<section>
+    <div>
+        <form method="post" action="cadastroCurso.php">
+        <label>
+            Digite o Nome do Curso:<br>
+            <input type="text" name="nome" size="50">
+            <br>
+            Qual o Periodo do Curso:
+            Diurno:<input type="radio" name="periodo" value="Diurno" checked>
+            Noturno:<input type="radio" name="periodo" value="Noturno"><br>
+            Digite a Descrição:<br>
+            <input type="text" name="desc" size="50">
+            <br><br>
+            <input type="submit" value="ENVIAR">
+        </label>
+    </form><br>
+        <form method="post" action="index.html">
+            <label>
+                <input type="submit" value="Voltar.">
+            </label>
+        </form>
+        <br>
+    </div>
+</section>
+<footer>Lucas Adriano Santos</footer>
+<script src="scriptJS.js"></script>
+</body>
+</html>

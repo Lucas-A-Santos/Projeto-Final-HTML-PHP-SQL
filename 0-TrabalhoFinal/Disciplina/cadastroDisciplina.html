@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Disciplina</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<header>
+    <h1>Cadastro de Disciplina</h1>
+</header>
+<section>
+    <div>
+        <form method="post" action="cadastroDisciplina.php">
+            <label>
+                Digite o Nome da Disciplina:<br>
+                <input type="text" name="nome" size="50">
+                <br>
+                Digite a Ementa da Disciplina:<br>
+                <input type="text" name="ementa" size="50">
+                <br>
+                Digite o Horario da Disciplina:<br>
+                <input type="text" name="horario" size="50">
+                <br>
+                Digite o ID do Curso desta Disciplina:<br>
+                <input type="number" name="curso" size="50">
+                <br>
+                Digite o ID do Professor desta Disciplina:<br>
+                <input type="number" name="professor" size="50">
+                <br><br>
+                <input type="submit" value="ENVIAR">
+            </label>
+        </form><br>
+        <form method="post" action="index.html">
+            <label>
+                <input type="submit" value="Voltar.">
+            </label>
+        </form>
+        <br>
+    </div>
+</section>
+<footer>Lucas Adriano Santos</footer>
+<script src="scriptJS.js"></script>
+</body>
+</html>
